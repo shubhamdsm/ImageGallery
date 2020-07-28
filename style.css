@@ -3,6 +3,8 @@
 }
 body{
     background-image: url(images/background.jpg);
+    background-repeat: repeat-y;
+    
 }
 nav{
     font-style: italic;
@@ -56,3 +58,21 @@ footer{
     font-style: italic;
     margin-top: 10px;
 }
+@media only screen and (max-width: 600px) {
+    .image-gallery{
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .gallery-img{
+        max-width: 100%;
+        height: auto;
+        
+    }
+    .btn{
+        
+    }
+  }
